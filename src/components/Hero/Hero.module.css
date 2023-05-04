@@ -1,0 +1,6 @@
+.hero{
+  padding: 3rem 7.5rem 6.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+}
