@@ -1,0 +1,18 @@
+.btn {
+  display: inline-block;
+  border-radius: .9rem;
+  padding: 0.50rem 1rem;
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: .5s;
+  text-transform: uppercase;
+  margin-top: .5em;
+  background-color: rgb(66, 96, 226);
+}
+
+.btn:hover {
+  background-color: #041935;
+}

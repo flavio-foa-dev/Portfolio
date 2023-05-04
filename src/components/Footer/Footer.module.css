@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 2rem;
+  background-color: rgb(243, 247, 252);
+  color: var(--branco);
+  padding: 2rem ;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+.img{
+  width:50px;
+}
