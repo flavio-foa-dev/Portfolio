@@ -2,26 +2,9 @@ import { useParams } from 'react-router-dom'
 import styles from './post.module.css'
 import data from '../../data/data.json'
 import Carrossel from '../Carrossel/Carrossel';
-
-
-const images = [
-  {
-    src: 'https://media.istockphoto.com/id/1394348763/pt/foto/organization-process.jpg?b=1&s=170667a&w=0&k=20&c=4_Wt2NaFQCZX9nrtYhRZoGJhAYSLlpR_ddKDpeRBk0k=',
-    alt: 'Descrição da imagem 1'
-  },
-  {
-    src: 'https://media.istockphoto.com/id/1392204000/pt/foto/concept-of-organizing.jpg?b=1&s=170667a&w=0&k=20&c=a_7g_kAKMLo6t9QNaa-9FmDseAsZ3BBC8_os2ExmKDo=',
-    alt: 'Descrição da imagem 2'
-  },
-  {
-    src: 'https://media.istockphoto.com/id/1412148116/pt/foto/business-goal-achievement-workflow-and-process-automation-flowchart.jpg?b=1&s=170667a&w=0&k=20&c=Xk3GMOysZMc_4m8bER9v7Dr4MNRWrlxOz-8EJUq2EwY=',
-    alt: 'Descrição da imagem 3'
-  }
-];
-
-
-
-
+import { images } from "../../data/Images"
+import { Airplay, CaretUpDown, GithubLogo, Hammer, Lightbulb, Link } from '@phosphor-icons/react';
+import Loading from '../Loading/Loading';
 
 
 export default function Post() {
@@ -29,8 +12,6 @@ export default function Post() {
   const params = useParams()
   const parseId = Number(params.id)
   const dataFiltered = data.find((item) => item.id === parseId)
-
-
 
   return (
     <div className={styles.container}>
@@ -40,21 +21,25 @@ export default function Post() {
 
          <div>
           { dataFiltered ?
-            <ul>
-              <li>{dataFiltered.title}</li>
-              <li>{dataFiltered.site}</li>
-              <li>{dataFiltered.type}</li>
-              <li>Ferramentas usadas Ract react routerdom, module css, tailwindcss,</li>
-              <li>desafios solucionados</li>
+            <ul className="flex flex-col gap-4 font-serif text-AzulEscuro">
+              <li className="flex items-center gap-2"><Airplay size={25} color="#172382" />{dataFiltered.title}</li>
+              <li className="flex items-center gap-2"><Link size={25} color="#172382" /><a href={dataFiltered.site} target="blank">{dataFiltered.site}</a></li>
+              <li className="flex items-center gap-2"><GithubLogo size={25} color="#172382" /><a href={dataFiltered.github} target="blank">{dataFiltered.github}</a></li>
+              <li className="flex items-center gap-2"><Hammer size={25} color="#172382" />Ract react-router-dom, module.css, tailwindcss,</li>
+              <li className="flex items-center gap-2"><Lightbulb size={25} color="#172382" />logica</li>
+              <li className="flex items-center gap-2"><CaretUpDown size={25} color="#172382"/>{dataFiltered.type}</li>
             </ul>
-          : "Nao encontardo"}
+          : <div className='flex items-center gap-6'>
+                <h2 className=''>Nao encontado</h2>
+              <Loading/>
+            </div>}
          </div>
 
         <div className="">
           <iframe
             className={styles.iframe}
-            src="https://www.youtube.com/embed/kf2UmO_Azls"
-            title="YouTube video player"
+            src={dataFiltered?.youTube}
+            title={dataFiltered?.title}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
             >
