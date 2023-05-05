@@ -1,10 +1,20 @@
-import { useParams } from "react-router-dom"
+
+import Navigation from "../components/Navagation/Navigation"
+import Footer from "../components/Footer/Footer"
+import Post from "../components/Post/Post"
+
+
 
 
 export default function Project() {
-  const params = useParams()
-  console.log(params)
+
+
   return (
-    <div>Project</div>
+    <>
+      <Navigation />
+
+      <Post />
+      <Footer />
+    </>
   )
 }

@@ -1,0 +1,37 @@
+.banerContainer {
+  position: relative;
+}
+
+.banerPhoto{
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1.3;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+
+}
+
+.banerPhoto{
+  height: 100px;
+}
+
+.title{
+  padding: 0 7.5rem;
+  font-size: 3rem;
+}
+
+
+
+@media (max-width: 744px) {
+
+  .banerPhoto {
+    height: 104px;
+  }
+
+  .title {
+    padding: 0 1rem;
+    font-size: 2rem;
+  }
+}
