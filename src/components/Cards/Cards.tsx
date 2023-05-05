@@ -1,12 +1,16 @@
 import { Link } from "react-router-dom";
 import styles from "./Cards.module.css"
+import Idata from "../../interfaces/Idata"
 
 import { ArrowsOutSimple, HeartStraight } from "@phosphor-icons/react";
 
+type propsCard = {
+  project: Idata
+  setProjects: (id: number) => void
+}
 
 
-export default function Cards({project, setProjects}: any) {
-  console.log(project)
+export default function Cards({project, setProjects}: propsCard) {
 
   const props1 = {size:25, color:"#D92525", weight:"fill", className:"cursor-pointer"}
   const props2 = {size:25, color:"#D92525", className:"cursor-pointer"}
