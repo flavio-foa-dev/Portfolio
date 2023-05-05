@@ -9,15 +9,17 @@ Olá! Este é o meu portfólio criado em React com Vite, onde compartilho alguns
 
 ## Meus projetos
 
-- Projeto 1: Descrição breve do projeto, com link para o código no GitHub e demonstração ao vivo, se houver.
-- Projeto 2: Descrição breve do projeto, com link para o código no GitHub e demonstração ao vivo, se houver.
-- Projeto 3: Descrição breve do projeto, com link para o código no GitHub e demonstração ao vivo, se houver.
+- Projeto 1: Descrição.
+- Projeto 2: Descrição.
+- Projeto 3: Descrição.
+- Projeto 4: Descrição.
+- Projeto 5: Descrição.
 
 ## Sobre mim
 
-Olá, meu nome é [Flavio Andrade], sou desenvolvedor de software com experiência em projetos full stack. Meu foco principal é criar sistemas de usuário agradáveis e intuitivas que atendam às necessidades dos usuários e dos negócios.
+Olá, meu nome é Flavio Andrade, sou desenvolvedor de software com experiência em projetos full stack. Meu foco principal é criar sistemas de usuário agradáveis e intuitivas que atendam às necessidades dos usuários e dos negócios.
 
-Sou formado em [sistema da informacao] e tenho experiência com programacao ha mais 2 anos. Gosto de trabalhar em equipe, aprender novas tecnologias e compartilhar conhecimentos.
+Sou formado em [ciencias da computacao] e tenho experiência com programacao ha mais 2 anos. Gosto de trabalhar em equipe, aprender novas tecnologias e compartilhar conhecimentos.
 
 ## Como executar este projeto
 

@@ -51,10 +51,10 @@ export default function Carrossel({images, intervalTime}:CarouselProps) {
         ))}
       </div>
       <button className={styles.carousel_control_prev} onClick={previousImage}>
-        <span className={styles.carousel_control_previcon}><CaretLeft size={32} /></span>
+        <span className={styles.carousel_control_previcon}><CaretLeft size={32} color="#fff" /></span>
       </button>
       <button className={styles.carousel_control_next} onClick={nextImage}>
-        <span className={styles.carousel_control_nexticon}><CaretRight size={32} /></span>
+        <span className={styles.carousel_control_nexticon}><CaretRight size={32} color="#fff" /></span>
       </button>
     </div>
   )
