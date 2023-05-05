@@ -1,0 +1,84 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.carousel_inner {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.carousel_item {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.carousel_caption {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px #000000;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.carousel_control_prev,
+.carousel_control_next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.carousel_control_prev {
+  left: 0;
+}
+
+.carousel_control_next {
+  right: 0;
+}
+
+.carousel_control_prev_icon,
+.carousel_control_next_icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.carousel_control_prev_icon {
+  background-image: url('path/to/your/left-arrow-icon.png');
+}
+
+.carousel_control_next_icon {
+  background-image: url('path/to/your/right-arrow-icon.png');
+}
+
+.carousel_item.active {
+  transform: translateX(0);
+}
+
+.carousel_item.next {
+  transform: translateX(100%);
+}
+
+.carousel_item.prev {
+  transform: translateX(-100%);
+}

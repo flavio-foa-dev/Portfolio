@@ -4,7 +4,6 @@
   color: var(--branco);
   padding: 2rem ;
   display: flex;
-  justify-content: start;
   align-items: center;
   column-gap: .5rem;
 }

@@ -12,7 +12,6 @@ export default function Project() {
   return (
     <>
       <Navigation />
-
       <Post />
       <Footer />
     </>
