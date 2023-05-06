@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Cards.module.css"
 import Idata from "../../interfaces/Idata"
+const path = "../../../public/Projects/"
 
 import { ArrowsOutSimple, HeartStraight } from "@phosphor-icons/react";
 
@@ -20,7 +21,7 @@ export default function Cards({project, setProjects}: propsCard) {
     <div className={styles.project}>
         <img
           className={styles.img__capa}
-          src={`../../../public/Projects/${project.id}/capa.png`}
+          src={path + project.id + "/capa.png"}
           alt={project.title}
         />
         <h2 className={styles.title}>{project.title}</h2>
