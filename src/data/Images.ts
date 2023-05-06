@@ -1,4 +1,7 @@
 import clinica from '../../public/Projects/1/capa.png'
+import portfolio from '../../public/Projects/4/capa.png'
+
+
 
 export  const images = [
   {
@@ -16,5 +19,9 @@ export  const images = [
   {
     src: clinica,
     alt: 'Sistema de Agendamento de consultas'
+  },
+  {
+    src: portfolio,
+    alt: 'Meu Portfolio '
   }
 ]
