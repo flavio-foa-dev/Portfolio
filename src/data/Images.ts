@@ -16,11 +16,11 @@ export  const images = [
     src: 'https://media.istockphoto.com/id/1412148116/pt/foto/business-goal-achievement-workflow-and-process-automation-flowchart.jpg?b=1&s=170667a&w=0&k=20&c=Xk3GMOysZMc_4m8bER9v7Dr4MNRWrlxOz-8EJUq2EwY=',
     alt: 'Descrição da imagem 3'
   },
-  {
+  { id: 1,
     src: clinica,
     alt: 'Sistema de Agendamento de consultas'
   },
-  {
+  { id: 4,
     src: portfolio,
     alt: 'Meu Portfolio '
   }
