@@ -1,9 +1,120 @@
 .hero{
-  padding: 3rem 7.5rem 6.25rem;
+  padding: 1rem 7.5rem 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: #fff;
 }
 
+.titulo {
+  font-size: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.paragrafo {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.imagens {
+  position: relative;
+  height: 396px;
+}
+
+.imagens > .minhaFoto {
+  position: absolute;
+  right: 60px;
+  bottom: 10px;
+  width: 19vw;
+  border-radius: 50%;
+}
+
+.imagens > .circuloColorido {
+  position: absolute;
+  right: 6vw;
+  bottom: 2vw;
+  width: 22vw;
+}
+
+@media (max-width: 1130px) {
+  .hero {
+    padding: 3rem 7.5rem 3rem;
+  }
+
+  .titulo {
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+  }
+
+  .paragrafo {
+      margin-bottom: 1.5rem;
+  }
+
+  .imagens {
+      height: 338px;
+  }
+
+  .imagens > .minhaFoto {
+      width: 23vw;
+      right: 60px;
+      bottom: 10px;
+  }
+
+  .imagens > .circuloColorido {
+    width: 28vw;
+    right: 7Svw;
+    bottom: 2vw;
+  }
+}
+
+@media (max-width: 970px) {
+  .hero {
+    padding: 2rem 2rem;
+  }
+
+  .imagens > .circuloColorido {
+    width: 30vw;
+    right: 9vw;
+    bottom: 4vw;
+  }
+
+  .imagens > .minhaFoto {
+    width: 25vw;
+    right: 50px;
+    bottom: -10px;
+  }
+}
 
 
+
+@media (max-width: 790px) {
+  .hero {
+      padding: 0  0.5rem;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      flex-direction: column-reverse;
+  }
+
+  .circuloColorido {
+    display: none;
+  }
+
+  .imagens > .minhaFoto {
+    width: 50vw;
+    right: 20%;
+    bottom: 20%;;
+  }
+
+  .titulo {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .paragrafo {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+}

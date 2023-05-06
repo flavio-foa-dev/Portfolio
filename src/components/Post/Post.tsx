@@ -15,7 +15,7 @@ export default function Post() {
 
   return (
     <div className={styles.container}>
-      <Carrossel images={images} intervalTime={3000}/>
+      <Carrossel images={images} intervalTime={4000}/>
 
       <section className={styles.tools}>
 
