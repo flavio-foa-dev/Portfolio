@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import styles from "./Cards.module.css"
 import Idata from "../../interfaces/Idata"
-const path = "../../../public/Projects/"
+import {images} from "../../data/Images"
 
 import { ArrowsOutSimple, HeartStraight } from "@phosphor-icons/react";
 
@@ -16,12 +16,17 @@ export default function Cards({project, setProjects}: propsCard) {
   const props1 = {size:25, color:"#D92525", weight:"fill", className:"cursor-pointer"}
   const props2 = {size:25, color:"#D92525", className:"cursor-pointer"}
   let propsFavorite = project.favorite ? props1 : props2
-  const id = project.id
+  const id = project.id || 0
+
+  const path = images.find((img: any) => img.id === id)
+  const isPath = path ? path.src : ""
+
+
   return (
     <div className={styles.project}>
         <img
           className={styles.img__capa}
-          src={path + project.id + "/capa.png"}
+          src={ isPath}
           alt={project.title}
         />
         <h2 className={styles.title}>{project.title}</h2>
