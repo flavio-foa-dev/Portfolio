@@ -6,7 +6,7 @@ import { ArrowsOutSimple, HeartStraight } from "@phosphor-icons/react";
 
 type propsCard = {
   project: Idata
-  setProjects: (id: number) => void
+  setProjects: (id: any) => void
 }
 
 
