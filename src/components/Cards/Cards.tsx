@@ -15,7 +15,7 @@ export default function Cards({project, setProjects}: propsCard) {
   const props1 = {size:25, color:"#D92525", weight:"fill", className:"cursor-pointer"}
   const props2 = {size:25, color:"#D92525", className:"cursor-pointer"}
   let propsFavorite = project.favorite ? props1 : props2
-
+  const id = project.id
   return (
     <div className={styles.project}>
         <img
@@ -29,7 +29,7 @@ export default function Cards({project, setProjects}: propsCard) {
           <h3 className={styles.subtitle} >{project.type}</h3>
 
           <div className="flex justify-end gap-3">
-            <HeartStraight {...propsFavorite} onClick={()=> setProjects(project.id)}/>
+            <HeartStraight {...propsFavorite} onClick={()=> setProjects(id)}/>
             <Link to={`/project/${project.id}`}>
               <ArrowsOutSimple size={25} color="#033E8C" />
             </Link>
