@@ -25,7 +25,7 @@ export default function Post() {
               <li className="flex items-center gap-2"><Airplay size={25} color="#172382" />{dataFiltered.title}</li>
               <li className="flex items-center gap-2"><Link size={25} color="#172382" /><a href={dataFiltered.site} target="blank">{dataFiltered.site}</a></li>
               <li className="flex items-center gap-2"><GithubLogo size={25} color="#172382" /><a href={dataFiltered.github} target="blank">{dataFiltered.github}</a></li>
-              <li className="flex items-center gap-2"><Hammer size={25} color="#172382" />Ract react-router-dom, module.css, tailwindcss,</li>
+              <li className="flex items-center gap-2"><Hammer size={25} color="#172382" />{dataFiltered.tools}</li>
               <li className="flex items-center gap-2"><Lightbulb size={25} color="#172382" />logica</li>
               <li className="flex items-center gap-2"><CaretUpDown size={25} color="#172382"/>{dataFiltered.type}</li>
             </ul>

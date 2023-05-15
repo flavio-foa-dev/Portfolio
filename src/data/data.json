@@ -7,15 +7,21 @@
     "favorite": true,
     "github": "https://github.com/flavio-foa-dev/cliniLagos",
     "site": "https://clini-lagos.vercel.app/",
-    "youTube": "https://www.youtube.com/embed/kf2UmO_Azls"
+    "youTube": "https://www.youtube.com/embed/kf2UmO_Azls",
+    "tools": "Ract, react-router-dom, module.css, tailwindcss"
+
   },
 
   {
     "id": 2,
-    "title": "O que é Node?",
+    "title": "Variáveis no CSS",
     "type": "front-end",
     "img": "",
-    "favorite": true
+    "favorite": false,
+    "github": "",
+    "site": "",
+    "youTube": "",
+    "tools": ""
   },
 
   {
@@ -23,33 +29,47 @@
     "title": "O que é JWT?",
     "type": "front-end",
     "img": "",
-    "favorite": false
+    "favorite": false,
+    "github": "",
+    "site": "",
+    "youTube": "",
+    "tools": ""
   },
 
   {
     "id": 4,
     "title": "PortFolio",
-    "type": "front-end",
+    "type": "Front-end",
     "img": "",
     "favorite": true,
     "github": "https://github.com/flavio-foa-dev/Portfolio",
     "site": "https://portfolio-di63t7rvi-flavio-foa-dev.vercel.app/",
-    "youTube": "https://www.youtube.com/embed/KulCj5hcYSI"
+    "youTube": "https://www.youtube.com/embed/KulCj5hcYSI",
+    "tools": "Ract, react-router-dom, module.css, tailwindcss"
+
   },
 
   {
     "id": 5,
-    "title": "Variáveis no CSS",
-    "type": "front-end",
+    "title": "Ecomerce shoes",
+    "type": "Front-end",
     "img": "",
-    "favorite": false
+    "favorite": true,
+    "github": "https://github.com/flavio-foa-dev/ecommerce",
+    "site": "https://ecommerce-h2q5.vercel.app/",
+    "youTube": "https://www.youtube.com/embed/r6zV25CrscE",
+    "tools": "React, Hooks, Custom Hooks, Context e Router, Module.css,"
   },
   {
     "id": 6,
     "title": "Principais comunidades",
     "type": "front-end",
     "img": "",
-    "favorite": false
+    "favorite": false,
+    "github": "",
+    "site": "",
+    "youTube": "",
+    "tools": ""
   },
 
   {
@@ -57,13 +77,21 @@
     "title": "Formulários reativos com Angular",
     "type": "front-end",
     "img": "",
-    "favorite": false
+    "favorite": false,
+    "github": "",
+    "site": "",
+    "youTube": "",
+    "tools": ""
   },
   {
     "id": 8,
     "title": "Svelte ou React?",
     "type": "front-end",
     "img": "",
-    "favorite": false
+    "favorite": false,
+    "github": "",
+    "site": "",
+    "youTube": "",
+    "tools": ""
   }
 ]
