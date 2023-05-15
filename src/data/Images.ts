@@ -1,12 +1,15 @@
 import clinica from '../../public/Projects/1/capa.png'
 import portfolio from '../../public/Projects/4/capa.png'
+import ecommerce from '../../public/Projects/2/capa.png'
+
 
 
 
 export  const images = [
   {
-    src: 'https://media.istockphoto.com/id/1394348763/pt/foto/organization-process.jpg?b=1&s=170667a&w=0&k=20&c=4_Wt2NaFQCZX9nrtYhRZoGJhAYSLlpR_ddKDpeRBk0k=',
-    alt: 'Descrição da imagem 1'
+    id: 5,
+    src: ecommerce,
+    alt:  'ecommerce'
   },
   {
     src: 'https://media.istockphoto.com/id/1392204000/pt/foto/concept-of-organizing.jpg?b=1&s=170667a&w=0&k=20&c=a_7g_kAKMLo6t9QNaa-9FmDseAsZ3BBC8_os2ExmKDo=',
