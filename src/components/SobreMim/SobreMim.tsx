@@ -4,7 +4,7 @@ import sobreMim from '../../assets/sobreMin.png';
 export default function SobreMim() {
   return (
     <div className={styles.postConteudoContainer}>
-      <h3 className={styles.subtitulo}>Ola eu sou Flavio</h3>
+      <h3 className={styles.subtitulo}>Ola! Me Chamo Flavio</h3>
       <img src={sobreMim} alt="foto" className={styles.fotoSobreMim} />
 
       <p className={styles.paragrafo}>

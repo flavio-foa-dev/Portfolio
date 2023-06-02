@@ -24,8 +24,9 @@
 }
 
 .subtitulo {
-  margin-bottom: 2rem;
-  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+
 }
 
 .paragrafo {
@@ -54,9 +55,9 @@
   }
 
   .subtitulo {
-      font-size: 1.5rem;
       line-height: 2rem;
-      margin-bottom: 1.5rem;
+      padding:  2rem 0;
+      margin-bottom: 0;
   }
 
   .paragrafo {
