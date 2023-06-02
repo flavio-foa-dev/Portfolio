@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import styles from './Carrossel.module.css'
-import { CaretLeft, CaretRight } from "@phosphor-icons/react";
+import { useEffect, useState } from 'react';
+import styles from './Carrossel.module.css';
+import { CaretLeft, CaretRight } from '@phosphor-icons/react';
 
 interface ImageProps {
   src: string;
@@ -14,7 +14,7 @@ interface CarouselProps {
 
 export default function Carrossel({images, intervalTime}:CarouselProps) {
 
-  const [activeIndex, setActiveIndex] = useState(0)
+  const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -28,11 +28,11 @@ export default function Carrossel({images, intervalTime}:CarouselProps) {
 
 
   function nextImage(){
-    setActiveIndex(activeIndex == images.length -1 ? 0 : activeIndex + 1 )
+    setActiveIndex(activeIndex == images.length -1 ? 0 : activeIndex + 1 );
   }
 
   function previousImage(){
-    setActiveIndex(activeIndex === 0 ? images.length -1 : activeIndex - 1 )
+    setActiveIndex(activeIndex === 0 ? images.length -1 : activeIndex - 1 );
   }
 
   return (
@@ -57,7 +57,7 @@ export default function Carrossel({images, intervalTime}:CarouselProps) {
         <span className={styles.carousel_control_nexticon}><CaretRight size={32} color="#fff" /></span>
       </button>
     </div>
-  )
+  );
 
 
 

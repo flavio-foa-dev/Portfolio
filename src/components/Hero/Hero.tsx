@@ -1,6 +1,6 @@
-import circle from "../../assets/circle.png"
-import minhafoto from "../../assets/minhafoto.png"
-import styles from "./Hero.module.css"
+import circle from '../../assets/circle.png';
+import minhafoto from '../../assets/minhafoto.png';
+import styles from './Hero.module.css';
 
 export default function Hero() {
   return (
@@ -9,7 +9,7 @@ export default function Hero() {
       <div className={styles.apresentacao}>
         <h1 className={styles.titulo}>My Portfolio</h1>
         <p className={styles.paragrafo}>
-          Boas vindas ao meu portfolio pessoal! Eu sou Flavio Andrade, programador Full Stack. Aqui compartilho vários conhecimentos.
+        Hola! Qué tal? Boas vindas ao meu portfolio! Me chamo Flavio Andrade, programador Full Stack. Aqui compartilho vários conhecimentos.
         </p>
         <p className={styles.paragrafo}>
         Explore meu portfolio e descubra como minhas ideias ganham vida através dos meus projetos.
@@ -20,7 +20,6 @@ export default function Hero() {
         <img src={circle} alt="ciculo colorido" className={styles.circuloColorido}/>
         <img src={minhafoto} alt="foto Flavio Andrade" className={styles.minhaFoto} />
       </div>
-
     </div>
-  )
+  );
 }

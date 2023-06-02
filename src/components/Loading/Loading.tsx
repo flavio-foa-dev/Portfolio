@@ -1,4 +1,4 @@
-import styles from './loading.module.css'
+import styles from './loading.module.css';
 
 export default function Loading() {
   return (
@@ -10,5 +10,5 @@ export default function Loading() {
       <div></div>
       <div></div>
     </div>
-  )
+  );
 }

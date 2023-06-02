@@ -14,14 +14,14 @@
 
   {
     "id": 2,
-    "title": "Variáveis no CSS",
+    "title": "Sistema pizzaria",
     "type": "front-end",
     "img": "",
-    "favorite": false,
-    "github": "",
-    "site": "",
-    "youTube": "",
-    "tools": ""
+    "favorite": true,
+    "github": "https://github.com/flavio-foa-dev/pizza",
+    "site": "https://pizzaria-kappa.vercel.app/",
+    "youTube": "https://www.youtube.com/embed/IrK7_HTw0kg",
+    "tools": "Ract, react-router-dom, module.css,"
   },
 
   {

@@ -1,5 +1,5 @@
-import styles from './sobreMim.module.css'
-import sobreMim from '../../assets/sobreMin.png'
+import styles from './sobreMim.module.css';
+import sobreMim from '../../assets/sobreMin.png';
 
 export default function SobreMim() {
   return (
@@ -8,30 +8,26 @@ export default function SobreMim() {
       <img src={sobreMim} alt="foto" className={styles.fotoSobreMim} />
 
       <p className={styles.paragrafo}>
-        Oi, tudo bem? Eu sou programador Full Stack sou feliz por ser dev.
+      ✦ Olá, tudo bem? Eu sou programador Full Stack e a minha paixão por desenvolvimento de software me traz uma felicidade imensa.
       </p>
       <p className={styles.paragrafo}>
-          Minha história com programação começou na empresa onde Trabalhava, quando decidi criar sites em HTML, CSS e wordpress com banco de dados Mysql tive que  aprender sobre dns http https e como funciona o deploy, e como ja trabalhava com Informática fui me desenvolvendo. Eu aprendi lógica de programação e o básico para desenvolver sites staticos
+      ✦ A minha história com programação teve início na empresa onde trabalhava. Decidi criar sites utilizando HTML, CSS e WordPress, além de utilizar um banco de dados MySQL. Nessa jornada, precisei aprender sobre DNS, HTTP, HTTPS e como fazer o deploy dos sites. Com a minha experiência anterior na área de Informática, pude me desenvolver ainda mais. Aprendi sobre lógica de programação e os conceitos básicos para criar sites estáticos.
       </p>
       <p className={styles.paragrafo}>
-          No ensino superior, escolhi cursar Ciencias da Computacao na Universidade Estacio de Sa. La pude ver
-          várias linguagens, como Java, Python, C++, mas sem aprofundar muito em cada uma delas. Eu via muitos conteudos diversos sobre a computacao em si.
-
+      ✦ Durante o meu curso de Ciência da Computação na Universidade Estácio de Sá, tive a oportunidade de explorar várias linguagens, como Java, Python e C++. Embora não tenha me aprofundado muito em cada uma delas, fui exposto a uma diversidade de conteúdos relacionados à computação.
       </p>
       <p className={styles.paragrafo}>
-          Entrando para escola Trybe, uma escola focada em programacao e softskils.
-          Com isso tive minha experiência de dev mais próxima da realidade, com prazos de implementação para os projetos,  aprendi muito enquanto codificava e me comunicava com meus colegas para trocar informacoes relacionadas. Foram muitos projetos.
+      ✦ Em seguida, ingressei na Trybe, uma escola focada em programação e habilidades interpessoais. Foi nesse momento que tive a minha primeira experiência real como desenvolvedor, lidando com prazos de implementação de projetos. Aprendi muito enquanto codificava e me comunicava com os meus colegas, compartilhando informações e conhecimentos. Foram inúmeros projetos que contribuíram para o meu crescimento.
       </p>
       <p className={styles.paragrafo}>
-          Como programador Full Stack aprendi logica de programacao, comunicacao, entrega continua, aprender a aprender, protagonismo,  css, html, Javascript, React, Redux, nodeJS, mongoDB, sql, sequelize, Python, ciencias da computacao.
-          </p>
-      <p className={styles.paragrafo}>
-          E foi enquanto eu estava na trybe que consegui estágio em desenvolvimento fullStack. Eu encontrei uma vaga na Remessa Online trabalhando com docker javascript. angular, POO, Redis, logica de solucoes de problemas. Continuei aprendendo  e me desenvolvendo nas ferramentas que a empresa usava.
+      ✦ Como programador Full Stack, adquiri habilidades em lógica de programação, comunicação, entrega contínua, aprendizado constante, protagonismo, além de dominar tecnologias como CSS, HTML, JavaScript, React, Redux, Node.js, MongoDB, SQL, Sequelize, Python e Ciência da Computação e outras ferramentas.
       </p>
       <p className={styles.paragrafo}>
-          Desde então, tem sido  um aprendizados continuo. A minha jornada nao acabou na trybe, continuo os meus estudos na Alura e desenvolvendo projetos.
-       </p>
-
+      ✦ Foi durante o meu tempo na Trybe que conquistei um estágio em desenvolvimento Full Stack na Remessa Online. Lá, pude trabalhar com Docker, JavaScript, Angular, Programação Orientada a Objetos, Redis e lógica de resolução de problemas. Continuo aprendendo e me desenvolvendo, aprimorando as habilidades necessárias para utilizar as ferramentas utilizadas pela empresa.
+      </p>
+      <p className={styles.paragrafo}>
+      ✦ Desde então, minha jornada tem sido de aprendizado contínuo. A minha passagem pela Trybe não marcou o fim, pois continuo meus estudos na Alura e muita documentacao  e desenvolvendo projetos que me desafiam e me permitem crescer ainda mais.
+      </p>
     </div>
-  )
+  );
 }

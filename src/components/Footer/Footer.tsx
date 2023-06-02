@@ -1,11 +1,14 @@
-import icon from '../../assets/marca.svg'
-import styles from './Footer.module.css'
+import icon from '../../assets/marca.svg';
+import SocialMidia from '../SocialMidia/SocialMidia';
+import styles from './Footer.module.css';
 export default function Footer() {
   return (
     <footer className={styles.footer}>
-     <img className={styles.img} src={icon} alt="icon"/>
-     <span>Desenvolvido Flavio Andrade</span>
-
+      <div className={styles.socialtext}>
+        <img className={styles.img} src={icon} alt="icon"/>
+        <span><b> Desenvolvido Flavio Andrade &copy;{ new Date().getFullYear()} </b> </span>
+      </div>
+      <SocialMidia/>
     </footer>
-  )
+  );
 }
