@@ -1,25 +1,25 @@
-import {createBrowserRouter} from "react-router-dom"
-import Home from "../pages/Home"
-import Sobre from "../pages/Sobre"
-import Project from "../pages/Project"
+import {createBrowserRouter} from 'react-router-dom';
+import Home from '../pages/Home';
+import Sobre from '../pages/Sobre';
+import Project from '../pages/Project';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <Home/>
   },
   {
-    path: "/sobre",
+    path: '/sobre',
     element: <Sobre/>
   },
   {
-    path: "*",
+    path: '*',
     element: <Sobre/>
   },
   {
-    path:"/project/:id",
+    path:'/project/:id',
     element: <Project/>
   }
-])
+]);
 
-export default router
+export default router;

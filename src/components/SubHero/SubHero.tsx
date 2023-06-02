@@ -1,4 +1,4 @@
-import styles from "./SubHero.module.css"
+import styles from './SubHero.module.css';
 
 export default function SubHero(props: any) {
 
@@ -8,5 +8,5 @@ export default function SubHero(props: any) {
       </div>
       <h2 className={styles.title}>{props.title}</h2>
     </section>
-  )
+  );
 }

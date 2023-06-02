@@ -1,13 +1,26 @@
 .footer {
   margin-top: 2rem;
   background-color: rgb(243, 247, 252);
-  color: var(--branco);
-  padding: 2rem ;
+  padding: 2rem 4rem ;
   display: flex;
-  align-items: center;
-  column-gap: .5rem;
+  justify-content: space-between;
 }
 
 .img{
   width:50px;
+}
+
+.socialtext {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem
+}
+
+@media (max-width: 768px){
+  .footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap:20px
+
+  }
 }

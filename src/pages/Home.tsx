@@ -1,7 +1,7 @@
-import Footer from "../components/Footer/Footer"
-import Hero from "../components/Hero/Hero"
-import ListCards from "../components/ListCards/ListCards"
-import Navigation from "../components/Navagation/Navigation"
+import Footer from '../components/Footer/Footer';
+import Hero from '../components/Hero/Hero';
+import ListCards from '../components/ListCards/ListCards';
+import Navigation from '../components/Navagation/Navigation';
 
 function Home() {
 
@@ -12,7 +12,7 @@ function Home() {
       <ListCards />
       <Footer />
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
