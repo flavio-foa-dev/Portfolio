@@ -26,7 +26,7 @@ export default function Cards({project, setProjects}: propsCard) {
   function handleShare() {
     const title = 'minha mensagem';
     const description = 'minha description';
-    const currentURL = window.location.origin + location.pathname;
+    const currentURL = window.location.origin + `/project/${project.id}`;
     const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent(
       `${title}: ${description}\n${currentURL}`
     )}`;
