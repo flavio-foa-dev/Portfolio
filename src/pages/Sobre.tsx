@@ -14,8 +14,6 @@ export default function Sobre() {
       <SubHero title={'Sobre mim'} photo={banerHeroSobre}/>
       <SobreMim />
       <Footer/>
-
-
     </>
   );
 }

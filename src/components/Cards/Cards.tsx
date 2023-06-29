@@ -36,11 +36,13 @@ export default function Cards({project, setProjects}: propsCard) {
 
   return (
     <div className={styles.project}>
-      <img
-        className={styles.img__capa}
-        src={ isPath}
-        alt={project.title}
-      />
+      <Link to={`/project/${project.id}`}>
+        <img
+          className={styles.img__capa}
+          src={isPath}
+          alt={project.title}
+        />
+      </Link>
       <h2 className={styles.title}>{project.title}</h2>
 
       <section className="flex justify-between mt-8">

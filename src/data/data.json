@@ -8,7 +8,7 @@
     "github": "https://github.com/flavio-foa-dev/cliniLagos",
     "site": "https://clini-lagos.vercel.app/",
     "youTube": "https://www.youtube.com/embed/kf2UmO_Azls",
-    "tools": "Ract, react-router-dom, module.css, tailwindcss"
+    "tools": "React, react-router-dom, module.css, tailwindcss"
 
   },
 
@@ -21,12 +21,12 @@
     "github": "https://github.com/flavio-foa-dev/pizza",
     "site": "https://pizzaria-kappa.vercel.app/",
     "youTube": "https://www.youtube.com/embed/IrK7_HTw0kg",
-    "tools": "Ract, react-router-dom, module.css,"
+    "tools": "React, react-router-dom, module.css,"
   },
 
   {
     "id": 3,
-    "title": "O que é JWT?",
+    "title": "Em Breve",
     "type": "front-end",
     "img": "",
     "favorite": false,
@@ -45,7 +45,7 @@
     "github": "https://github.com/flavio-foa-dev/Portfolio",
     "site": "https://portfolio-di63t7rvi-flavio-foa-dev.vercel.app/",
     "youTube": "https://www.youtube.com/embed/KulCj5hcYSI",
-    "tools": "Ract, react-router-dom, module.css, tailwindcss"
+    "tools": "React, react-router-dom, module.css, tailwindcss"
 
   },
 
@@ -58,11 +58,11 @@
     "github": "https://github.com/flavio-foa-dev/ecommerce",
     "site": "https://ecommerce-h2q5.vercel.app/",
     "youTube": "https://www.youtube.com/embed/r6zV25CrscE",
-    "tools": "React, Hooks, Custom Hooks, Context e Router, Module.css,"
+    "tools": "React, Hooks, Custom Hooks, Context, Router, Module.css,"
   },
   {
     "id": 6,
-    "title": "Principais comunidades",
+    "title": "Em Breve",
     "type": "front-end",
     "img": "",
     "favorite": false,
@@ -74,7 +74,7 @@
 
   {
     "id": 7,
-    "title": "Formulários reativos com Angular",
+    "title": "Em Breve",
     "type": "front-end",
     "img": "",
     "favorite": false,
@@ -85,7 +85,7 @@
   },
   {
     "id": 8,
-    "title": "Svelte ou React?",
+    "title": "Em Breve",
     "type": "front-end",
     "img": "",
     "favorite": false,
