@@ -12,8 +12,6 @@ type propsCard = {
 
 
 export default function Cards({project, setProjects}: propsCard) {
-  const location = useLocation();
-
 
   const props1 = {size:25, color:'#D92525', weight:'fill', className:'cursor-pointer'};
   const props2 = {size:25, color:'#D92525', className:'cursor-pointer'};
