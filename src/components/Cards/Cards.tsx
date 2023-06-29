@@ -1,4 +1,4 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import styles from './Cards.module.css';
 import Idata from '../../interfaces/Idata';
 import {images} from '../../data/Images';
