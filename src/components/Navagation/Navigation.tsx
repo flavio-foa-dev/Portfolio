@@ -1,4 +1,3 @@
-import SocialMidia from '../SocialMidia/SocialMidia';
 import styles from './Navigation.module.css';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -15,7 +14,6 @@ export default function Navigation() {
           <p className={url.pathname === '/sobre' ? styles.ative : ''}>Sobre</p>
         </Link>
       </nav>
-      <SocialMidia/>
     </header>
   );
 }

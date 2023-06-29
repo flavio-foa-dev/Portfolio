@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.socialtext}>
         <img className={styles.img} src={icon} alt="icon"/>
-        <span><b> Desenvolvido Flavio Andrade &copy;{ new Date().getFullYear()} </b> </span>
+        <span><b> Desenvolvido por Flavio Andrade &copy;{ new Date().getFullYear()} </b> </span>
       </div>
       <SocialMidia/>
     </footer>
