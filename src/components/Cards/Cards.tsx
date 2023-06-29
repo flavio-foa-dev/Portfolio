@@ -12,8 +12,6 @@ type propsCard = {
 
 
 export default function Cards({project, setProjects}: propsCard) {
-  const location = useLocation();
-
 
   const props1 = {size:25, color:'#D92525', weight:'fill', className:'cursor-pointer'};
   const props2 = {size:25, color:'#D92525', className:'cursor-pointer'};
@@ -26,7 +24,7 @@ export default function Cards({project, setProjects}: propsCard) {
   function handleShare() {
     const title = 'minha mensagem';
     const description = 'minha description';
-    const currentURL = window.location.origin + location.pathname;
+    const currentURL = window.location.origin + `/project/${project.id}`;
     const whatsappURL = `https://api.whatsapp.com/send?text=${encodeURIComponent(
       `${title}: ${description}\n${currentURL}`
     )}`;
