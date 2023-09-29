@@ -1,8 +1,9 @@
-.hero{
+.hero {
   padding: 1rem 7.5rem 5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: #fff;
+
 }
 
 .titulo {
