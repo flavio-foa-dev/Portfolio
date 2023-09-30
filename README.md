@@ -13,6 +13,7 @@ Olá! Este é o meu portfólio criado em React com Vite, onde compartilho alguns
 - Pizzaria: Sistema de pizzaria com filtros busca ordenachao e compartilhamento de pratos
 - Ecommerce: sistema de carrinho de compras com login cadastro e pagamento
 - Portifolio: sistema que reune projetos realizado por mim com video codio e descricao.
+- Usando IA Plataforma de envio de vídeos Transcrição, Conversão, Geração de Títulos
 
 ## Sobre mim
 

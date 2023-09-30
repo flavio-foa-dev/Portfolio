@@ -3,7 +3,7 @@ import styles from './post.module.css';
 import data from '../../data/data.json';
 import Carrossel from '../Carrossel/Carrossel';
 import { images } from '../../data/Images';
-import { Airplay, CaretUpDown, GithubLogo, Hammer, Lightbulb, Link } from '@phosphor-icons/react';
+import { Airplay, CaretUpDown, ChatText, GithubLogo, Hammer, Lightbulb, Link } from '@phosphor-icons/react';
 import Loading from '../Loading/Loading';
 
 export default function Post() {
@@ -21,8 +21,9 @@ export default function Post() {
               <li className="flex items-center gap-2"><Airplay size={25} color="#172382" />{dataFiltered.title}</li>
               <li className="flex items-center gap-2"><Link size={25} color="#172382" /><a href={dataFiltered.site} target="blank">{dataFiltered.site}</a></li>
               <li className="flex items-center gap-2"><GithubLogo size={25} color="#172382" /><a href={dataFiltered.github} target="blank">{dataFiltered.github}</a></li>
+              <li className="flex items-center gap-2"><Lightbulb size={25} color="#172382"/>{dataFiltered.motivation}</li>
+              <li className="flex items-center gap-2"><ChatText size={25} color="#172382"/>{dataFiltered.description}</li>
               <li className="flex items-center gap-2"><Hammer size={25} color="#172382" />{dataFiltered.tools}</li>
-              <li className="flex items-center gap-2"><Lightbulb size={25} color="#172382" />logica</li>
               <li className="flex items-center gap-2"><CaretUpDown size={25} color="#172382"/>{dataFiltered.type}</li>
             </ul>
             : <div className='flex items-center gap-6'>
@@ -40,7 +41,6 @@ export default function Post() {
           >
           </iframe>
         </div>
-
       </section>
     </div>
   );
