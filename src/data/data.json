@@ -8,7 +8,9 @@
     "github": "https://github.com/flavio-foa-dev/cliniLagos",
     "site": "https://clini-lagos.vercel.app/",
     "youTube": "https://www.youtube.com/embed/kf2UmO_Azls",
-    "tools": "React, react-router-dom, module.css, tailwindcss"
+    "tools": "React, react-router-dom, TypeScript:, tailwindcss",
+    "motivation": "Fazer Agendamento de consultas",
+    "description": "Listagem de médicos e especialidades Agendas"
   },
   {
     "id": 2,
@@ -19,20 +21,22 @@
     "github": "https://github.com/flavio-foa-dev/pizza",
     "site": "https://pizzaria-kappa.vercel.app/",
     "youTube": "https://www.youtube.com/embed/IrK7_HTw0kg",
-    "tools": "React, react-router-dom, module.css,"
+    "tools": "React, TypeScript router-dom, module.css,",
+    "motivation": "Sistema de Menu de Pizzaria",
+    "description": "filtrar, buscar e ordenar pizzas de acordo com suas preferências."
   },
   {
     "id": 3,
-    "title": "Usando IA",
-    "type": "front-end | back-end",
+    "title": "Ecomerce shoes",
+    "type": "front-end",
     "img": "",
-    "favorite": false,
-    "github": "https://github.com/flavio-foa-dev/ia-F",
-    "site": "",
-    "youTube": "https://www.youtube.com/embed/4sY8CB0rWtE",
-    "tools": "Radix UI Open AI ffmpeg wasm Tailwind",
-    "motivation": "Plataforma de envio de vídeos",
-    "description": "Transcrição, Conversão, Geração de Títulos."
+    "favorite": true,
+    "github": "https://github.com/flavio-foa-dev/ecommerce",
+    "site": "https://ecommerce-h2q5.vercel.app/",
+    "youTube": "https://www.youtube.com/embed/r6zV25CrscE",
+    "tools": "React, Hooks, Custom Hooks, Context, Router, Module.css,",
+    "motivation": "E-commerce de venda Tênis.",
+    "description": "Adição Visualização Edição  de Produtos ao Carrinho"
   },
   {
     "id": 4,
@@ -43,19 +47,24 @@
     "github": "https://github.com/flavio-foa-dev/Portfolio",
     "site": "https://portfolio-di63t7rvi-flavio-foa-dev.vercel.app/",
     "youTube": "https://www.youtube.com/embed/KulCj5hcYSI",
-    "tools": "React, react-router-dom, module.css, tailwindcss"
+    "tools": "React, react-router-dom, module.css, tailwindcss",
+    "motivation": "Criar Portifolio",
+    "description": "Mostrar habilidades e projetos"
   },
   {
     "id": 5,
-    "title": "Ecomerce shoes",
-    "type": "front-end",
+    "title": "OpenAI",
+    "type": "front-end | back-end",
     "img": "",
-    "favorite": true,
-    "github": "https://github.com/flavio-foa-dev/ecommerce",
-    "site": "https://ecommerce-h2q5.vercel.app/",
-    "youTube": "https://www.youtube.com/embed/r6zV25CrscE",
-    "tools": "React, Hooks, Custom Hooks, Context, Router, Module.css,"
+    "favorite": false,
+    "github": "https://github.com/flavio-foa-dev/ia-F",
+    "site": "",
+    "youTube": "https://www.youtube.com/embed/4sY8CB0rWtE",
+    "tools": "Radix UI Open AI ffmpeg wasm Tailwind",
+    "motivation": "Plataforma de envio de vídeos",
+    "description": "Transcrição, Conversão, Geração de Títulos."
   },
+
   {
     "id": 6,
     "title": "Em Breve",
@@ -65,7 +74,9 @@
     "github": "",
     "site": "",
     "youTube": "",
-    "tools": ""
+    "tools": "",
+    "motivation": "",
+    "description": ""
   },
   {
     "id": 7,
@@ -76,7 +87,9 @@
     "github": "",
     "site": "",
     "youTube": "",
-    "tools": ""
+    "tools": "",
+    "motivation": "",
+    "description": ""
   },
   {
     "id": 8,
@@ -87,6 +100,8 @@
     "github": "",
     "site": "",
     "youTube": "",
-    "tools": ""
+    "tools": "",
+    "motivation": "",
+    "description": ""
   }
 ]
